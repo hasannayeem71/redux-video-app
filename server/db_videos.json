@@ -11,11 +11,7 @@
       "views": "2.1k",
       "link": "https://www.youtube-nocookie.com/embed/6O4s7v28nlw",
       "thumbnail": "https://i3.ytimg.com/vi/6O4s7v28nlw/maxresdefault.jpg",
-      "tags": [
-        "javascript",
-        "react",
-        "tips"
-      ],
+      "tags": ["javascript", "react", "tips"],
       "likes": 8,
       "unlikes": 8
     },
@@ -30,10 +26,7 @@
       "views": "2.1k",
       "link": "https://www.youtube-nocookie.com/embed/N-U6AVcIPy4",
       "thumbnail": "https://i3.ytimg.com/vi/N-U6AVcIPy4/maxresdefault.jpg",
-      "tags": [
-        "vscode",
-        "tips"
-      ],
+      "tags": ["vscode", "tips"],
       "likes": 47,
       "unlikes": 22
     },
@@ -48,10 +41,7 @@
       "views": "2.1k",
       "link": "https://www.youtube-nocookie.com/embed/4M7D3O2XX4o",
       "thumbnail": "https://i3.ytimg.com/vi/4M7D3O2XX4o/maxresdefault.jpg",
-      "tags": [
-        "tailwind",
-        "css"
-      ],
+      "tags": ["tailwind", "css"],
       "likes": 6,
       "unlikes": 5
     },
@@ -66,11 +56,7 @@
       "views": "2.1k",
       "link": "https://www.youtube-nocookie.com/embed/dD9O8DnIBj4",
       "thumbnail": "https://i3.ytimg.com/vi/dD9O8DnIBj4/maxresdefault.jpg",
-      "tags": [
-        "debounce",
-        "javascript",
-        "tips"
-      ],
+      "tags": ["debounce", "javascript", "tips"],
       "likes": 0,
       "unlikes": 0
     },
@@ -85,11 +71,7 @@
       "views": "2.1k",
       "link": "https://www.youtube-nocookie.com/embed/4tV1Mfi4fMA",
       "thumbnail": "https://i3.ytimg.com/vi/4tV1Mfi4fMA/maxresdefault.jpg",
-      "tags": [
-        "sass",
-        "css",
-        "ui"
-      ],
+      "tags": ["sass", "css", "ui"],
       "likes": 0,
       "unlikes": 0
     },
@@ -104,11 +86,7 @@
       "views": "2.1k",
       "link": "https://www.youtube-nocookie.com/embed/34tjWL9wi4g",
       "thumbnail": "https://i3.ytimg.com/vi/34tjWL9wi4g/maxresdefault.jpg",
-      "tags": [
-        "react",
-        "router",
-        "javascript"
-      ],
+      "tags": ["react", "router", "javascript"],
       "likes": 0,
       "unlikes": 0
     },
@@ -123,11 +101,82 @@
       "views": "2.1k",
       "link": "https://www.youtube-nocookie.com/embed/smDa6hoxLKI",
       "thumbnail": "https://i3.ytimg.com/vi/smDa6hoxLKI/maxresdefault.jpg",
-      "tags": [
-        "tailwind",
-        "css",
-        "ui"
-      ],
+      "tags": ["tailwind", "css", "ui"],
+      "likes": 0,
+      "unlikes": 0
+    },
+    {
+      "id": 8,
+      "title": "I tried 5 Firebase alternatives",
+      "description": "Firebase leads the backend-as-a-service space, but there are many popular alternatives like AWS amplify, Supabase, Nhost, MongoDB Realm, Appwrite, and Parse. Let's compare the pros and cons of fully-managed cloud services. ",
+      "author": "Fireship",
+      "avatar": "https://yt3.ggpht.com/ytc/AMLnZu80d66aj0mK3KEyMfpdGFyrVWdV5tfezE17IwRkhw=s48-c-k-c0x00ffffff-no-rj",
+      "date": "Sep 9, 2022",
+      "duration": "10:30",
+      "views": "194k",
+      "link": "https://www.youtube-nocookie.com/embed/SXmYUalHyYk",
+      "thumbnail": "https://i3.ytimg.com/vi/SXmYUalHyYk/maxresdefault.jpg",
+      "tags": ["javascript", "router", "database", "tips"],
+      "likes": 0,
+      "unlikes": 0
+    },
+    {
+      "id": 9,
+      "title": "6 things I wish I knew about CSS when I started",
+      "description": "When I started learning web development, I was self-taught and I ran into my fair share of problems and made some mistakes that I didn’t even realize were mistakes until years later, so in this video I’m going to dive into 5 CSS tips that I wish I someone else had told me when I started.",
+      "author": "kevin Poweel",
+      "avatar": "https://yt3.ggpht.com/ytc/AMLnZu8t-B0GQmkMnHoxqlEv78fWiS4hTMUe8wELLwYvvA=s48-c-k-c0x00ffffff-no-rj",
+      "date": "Sep 8, 2022",
+      "duration": "9:08",
+      "views": "57k",
+      "link": "https://www.youtube-nocookie.com/embed/U7itlR6qESM",
+      "thumbnail": "https://i3.ytimg.com/vi/U7itlR6qESM/maxresdefault.jpg",
+      "tags": ["css", "sass", "tailwind", "tips"],
+      "likes": 0,
+      "unlikes": 0
+    },
+    {
+      "id": 10,
+      "title": "How To Send Push Notifications With JavaScript",
+      "description": "Sending push notifications in JavaScript seems like it would be difficult if not impossible, but it is actually built into the browser and quite easy. In this video I show you everything you need to know about sending push notifications with JavaScript and just how easy it is.",
+      "author": "Web Dev Simplified",
+      "avatar": "https://yt3.ggpht.com/ytc/AMLnZu-PjRc81p0qP-ZPWxv8aY4k-4gFRzGEYs3HWbIQ=s48-c-k-c0x00ffffff-no-rj",
+      "date": "Sep 10, 2022",
+      "duration": "11:37",
+      "views": "54k",
+      "link": "https://www.youtube-nocookie.com/embed/Bm0JjR4kP8w",
+      "thumbnail": "https://i3.ytimg.com/vi/Bm0JjR4kP8w/maxresdefault.jpg",
+      "tags": ["javascript", "react"],
+      "likes": 0,
+      "unlikes": 0
+    },
+    {
+      "id": 11,
+      "title": "Which Is Better? SQL vs NoSQL",
+      "description": "The age old debate of SQL vs NoSQL has been going on since the day NoSQL was conceived. In this video I will detail the pros and cons of each so that when you are ready to choose a database for your next project you will know exactly which one to choose.",
+      "author": "Web Dev Simplified",
+      "avatar": "https://yt3.ggpht.com/ytc/AMLnZu-PjRc81p0qP-ZPWxv8aY4k-4gFRzGEYs3HWbIQ=s48-c-k-c0x00ffffff-no-rj",
+      "date": "Sep 10, 2022",
+      "duration": "11:37",
+      "views": "54k",
+      "link": "https://www.youtube-nocookie.com/embed/t0GlGbtMTio",
+      "thumbnail": "https://i3.ytimg.com/vi/t0GlGbtMTio/maxresdefault.jpg",
+      "tags": ["database", "tips"],
+      "likes": 0,
+      "unlikes": 0
+    },
+    {
+      "id": 12,
+      "title": "Build A Drawing or Paint App in HTML CSS & JavaScript | Drawing App in JavaScript",
+      "description": "In this video, I've shown you how to Build A Drawing or Paint using HTML CSS & JavaScript. In this drawing app, users can draw different shapes in their preferred colors, erase their drawings, and even download their drawings as images.",
+      "author": "CodingNepal",
+      "avatar": "https://yt3.ggpht.com/4PxMvFQL_cZRSXUwsh5eMSehl22GAejM2BY1Kix2gzrmeBOnaSzya45fFVh7I67yzmWWrWkQKQ=s48-c-k-c0x00ffffff-no-rj",
+      "date": "Sep 6, 2022",
+      "duration": "50:46",
+      "views": "8k",
+      "link": "https://www.youtube-nocookie.com/embed/y84tBZo8GFo",
+      "thumbnail": "https://i3.ytimg.com/vi/y84tBZo8GFo/maxresdefault.jpg",
+      "tags": ["css", "javascript", "html"],
       "likes": 0,
       "unlikes": 0
     }

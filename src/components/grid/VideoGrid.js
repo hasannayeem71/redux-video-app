@@ -9,10 +9,11 @@ const VideoGrid = () => {
   const { videos, isLoading, isError, error } = useSelector(
     (state) => state.videos
   );
+  const { page } = useSelector((state) => state.pagination);
   const { search, tags } = useSelector((state) => state.filter);
   useEffect(() => {
-    dispatch(fetchVideos({tags, search}));
-  }, [dispatch, tags, search]);
+    dispatch(fetchVideos({ tags, search, pages: page }));
+  }, [dispatch, tags, search, page]);
 
   let content;
   if (isLoading) content = <Loading />;

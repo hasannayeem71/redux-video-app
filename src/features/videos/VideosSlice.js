@@ -8,8 +8,8 @@ const initialState = {
   error: "",
 };
 
-export const fetchVideos = createAsyncThunk("videos/fetchVideos", async ({tags,search}) => {
-  const videos = await getVideos(tags,search);
+export const fetchVideos = createAsyncThunk("videos/fetchVideos", async ({tags,search,pages}) => {
+  const videos = await getVideos(tags,search,pages);
   return videos;
 });
 

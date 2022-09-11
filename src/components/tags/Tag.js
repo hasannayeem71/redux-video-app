@@ -1,6 +1,7 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { tagRemoved, tagSelected } from "../../features/filter/filterSlice";
+import { pageSelected } from "../../features/pagination/paginationSlice";
 
 const Tag = ({ tag }) => {
   const dispatch = useDispatch()
@@ -13,6 +14,7 @@ const Tag = ({ tag }) => {
     }
     else{
       dispatch(tagSelected(tag.title))
+      dispatch(pageSelected(1))
     }
   }
 
