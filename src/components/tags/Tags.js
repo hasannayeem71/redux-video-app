@@ -7,7 +7,7 @@ import Tag from "./Tag";
 const Tags = () => {
   const dispatch = useDispatch();
   const { tags } = useSelector((state) => state.tags);
-  const { tags:selectedTag, search:searchText } = useSelector((state) => state.filter);
+  const { tags:selectedTag, search:searchText,author } = useSelector((state) => state.filter);
   useEffect(() => {
     dispatch(fetchTags());
   }, [dispatch]);
@@ -18,7 +18,7 @@ const Tags = () => {
         {tags?.map((tag) => (
           <Tag key={tag.id} tag={tag} />
         ))}
-        {(selectedTag?.length>0 || searchText) && (
+        {(selectedTag?.length>0 || searchText||author) && (
           <div
             className={`bg-red-600 text-white px-4 py-1 rounded-full cursor-pointer`}
             onClick={()=>dispatch(removeFilter())}

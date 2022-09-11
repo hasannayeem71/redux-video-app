@@ -10,10 +10,10 @@ const VideoGrid = () => {
     (state) => state.videos
   );
   const { page } = useSelector((state) => state.pagination);
-  const { search, tags } = useSelector((state) => state.filter);
+  const { search, tags,author } = useSelector((state) => state.filter);
   useEffect(() => {
-    dispatch(fetchVideos({ tags, search, pages: page }));
-  }, [dispatch, tags, search, page]);
+    dispatch(fetchVideos({ tags, search, pages: page,author }));
+  }, [dispatch, tags, search, page,author]);
 
   let content;
   if (isLoading) content = <Loading />;

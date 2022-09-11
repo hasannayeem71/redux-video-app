@@ -3,6 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
   tags: [],
   search: "",
+  author: "",
 };
 
 const filterSlice = createSlice({
@@ -18,15 +19,22 @@ const filterSlice = createSlice({
         state.tags.splice(indexToRemove, 1);
       }
     },
+    authorSelected: (state, action) => {
+      state.author = action.payload;
+      state.tags=[];
+      state.search=""
+    },
     searched: (state, action) => {
       state.search = action.payload;
     },
     removeFilter: (state, action) => {
       state.search = "";
       state.tags = [];
+      state.author=''
     },
   },
 });
 
 export default filterSlice.reducer;
-export const { tagRemoved, tagSelected, searched,removeFilter } = filterSlice.actions;
+export const { tagRemoved, tagSelected,authorSelected, searched, removeFilter } =
+  filterSlice.actions;
