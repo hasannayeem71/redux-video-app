@@ -1,7 +1,5 @@
 import counterReducer, {
-  increment,
-  decrement,
-  incrementByAmount,
+  decrement, increment, incrementByAmount
 } from './counterSlice';
 
 describe('counter reducer', () => {
