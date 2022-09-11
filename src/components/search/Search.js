@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useMatch, useNavigate } from "react-router-dom";
 import { searched } from "../../features/filter/filterSlice";
 
 const Search = () => {
   const { search } = useSelector((state) => state.filter);
-  const [input, setinput] = useState(search);
+  const [input, setinput] = useState('');
   const dispatch = useDispatch();
   const match = useMatch("/");
   const navigate = useNavigate();
@@ -18,6 +18,10 @@ const Search = () => {
       navigate("/");
     }
   };
+
+  useEffect(()=>{
+    setinput(search)
+  },[search])
 
   return (
     <form onSubmit={handleSubmit}>
