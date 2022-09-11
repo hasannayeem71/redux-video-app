@@ -1,5 +1,5 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import { getVideo } from "./videoAPI";
+import { getVideo, putLike, putUnlike } from "./videoAPI";
 
 const initialState = {
   video:{},
@@ -10,6 +10,14 @@ const initialState = {
 
 export const fetchVideo = createAsyncThunk("video/fetchVideo", async (id) => {
   const video = await getVideo(id);
+  return video;
+});
+export const likeVideo = createAsyncThunk("video/likeVideo", async ({data,id}) => {
+  const video = await putLike(data,id);
+  return video;
+});
+export const unLikeVideo = createAsyncThunk("video/unLikeVideo", async ({data,id}) => {
+  const video = await putUnlike(data,id);
   return video;
 });
 
@@ -32,6 +40,31 @@ const videoSlice = createSlice({
         state.isError = true;
         state.video = {};
         state.error = action.error?.message;
+      })
+     
+      .addCase(likeVideo.pending, (state) => {
+        state.isError = false;
+        state.error = "";
+      })
+      .addCase(likeVideo.fulfilled, (state, action) => {
+        state.isLoading = false;
+        state.video.likes=action.payload.likes
+
+      })
+      .addCase(likeVideo.rejected, (state, action) => {
+        state.isLoading=false
+      })
+      .addCase(unLikeVideo.pending, (state) => {
+        state.isError = false;
+        state.error = "";
+      })
+      .addCase(unLikeVideo.fulfilled, (state, action) => {
+        state.isLoading = false;
+        state.video.unlikes=action.payload.unlikes
+
+      })
+      .addCase(unLikeVideo.rejected, (state, action) => {
+        state.isLoading=false
       });
   },
 });
